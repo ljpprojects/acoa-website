@@ -1,0 +1,2 @@
+deploy:
+	bunx wrangler deploy
