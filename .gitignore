@@ -5,9 +5,9 @@
 # Build & lock files
 dist
 .wrangler
-package-lock.json
 bun.lock
 node_modules
+site/index.html
 
 # Sensitive
 .env*

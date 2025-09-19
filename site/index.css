@@ -1,0 +1,108 @@
+:root {
+    --fg-col: #fafafa;
+    --bg-col: #171717;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-col: #fafafa;
+        --fg-col: #171717;
+    }
+}
+
+:root,
+a {
+    font-family: "Poppins", sans-serif;
+    color: var(--fg-col);
+    text-decoration: none;
+    text-wrap-mode: wrap;
+    max-width: 90vw;
+}
+
+code {
+    font-family: "Space Mono", sans-serif;
+}
+
+textarea {
+    background-color: var(--fg-col);
+    color: var(--bg-col);
+    border: none;
+    border-radius: 1vmin;
+    padding: 1.25vmin;
+    transition-duration: 0.15s;
+    transition-timing-function: cubic-bezier(0.26, 0.91, 0.76, 1);
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+a {
+    font-weight: 600;
+    transition-duration: 0.5s;
+    border: none;
+    border-radius: 0.5vh;
+}
+
+.un {
+    display: inline-block;
+    padding-bottom: 2px;
+    background-image: linear-gradient(var(--fg-col) 0 0);
+    background-position: 0 100%;
+    /*OR bottom left*/
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition:
+        background-size 0.3s,
+        background-position 0s 0.3s;
+    /*change after the size immediately*/
+}
+
+.un:hover {
+    background-position: 100% 100%;
+    /*OR bottom right*/
+    background-size: 100% 2px;
+}
+
+body {
+    background-color: var(--bg-col);
+}
+
+ol {
+    list-style: upper-alpha;
+    counter-reset: item;
+}
+
+ol>li {
+    list-style: none;
+}
+
+ol>li::before {
+    content: counter(item, upper-alpha) ")";
+    counter-increment: item;
+    margin-right: 5px;
+}
+
+svg {
+    fill: var(--fg-col);
+}
+
+body {
+    padding: 0 5vw;
+    max-width: 90vw;
+    overflow-x: hidden;
+}
+
+section#header {
+    overflow: hidden;
+    display: flex;
+    align-items: left;
+    padding: 2.5vh 5vw;
+    flex-direction: column;
+}
+
+section#header>sub,
+section#header>h1 {
+    padding: 0;
+    margin: 0;
+}

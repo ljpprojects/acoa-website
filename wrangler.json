@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "workers-static-template",
+  "name": "acoa-website",
   "compatibility_date": "2025-04-01",
   "assets": {
     "directory": "./site",
@@ -8,6 +8,10 @@
   },
   "build": {
     "command": "bash ./build.sh",
-    "watch_dir": ["."]
+    "watch_dir": [
+      "./site/index.css",
+      "./site/index.max.html",
+      "./wrangler.json"
+    ]
   }
 }
