@@ -1,0 +1,15 @@
+# System files
+.DS_Store
+._*
+
+# Build & lock files
+dist
+.wrangler
+package-lock.json
+bun.lock
+node_modules
+
+# Sensitive
+.env*
+.dev.env*
+.dev.vars*
