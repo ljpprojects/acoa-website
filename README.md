@@ -8,14 +8,13 @@ modified MIT License with a clause disallowing the restriction of access by:
 - Purposefully increasing the difficulty of obtaining copies of the software, or<
 - Any other means.
 
-## ACOA v1 License
+## ACOA1 License
 
-The license is as below. Replace \[YEAR/YEARS\] with the year or years of the
-copyright, and \[NAME\] with the name of the copyright holder. The first line
+The first line
 is optional.
 
 ```
-ACOA v1 License
+ACOA1 License
 
 Copyright (c) [YEAR/YEARS] [NAME]
 
