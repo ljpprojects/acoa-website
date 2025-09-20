@@ -2,26 +2,52 @@ ACOA1 License
 
 Copyright (c) 2025 ljpprojects
 
-The "Software" refers to this software, associated documentation, and/or
+The "Software" refers to the source code, associated documentation, and/or
     any other associated files.
 
 The "Licensee" refers to anyone obtaining a copy, derivative, and/or portion
     of the Software.
+
+"Derivatives" are any copy of the Software which have been meaningfully altered.
+
+"Partial Derivatives" are any portions of the Software which have been meaningfully
+    altered.
+
+The "Contributors" are anyone who is acknowledged in the Software itself as
+    having made contribution. If this is a Derivative or Partial Derivative, the
+    contributors of the Software it is derived from are also contributors to
+    this Derivative or Partial Derivative.
 
 Permission is granted, without charge, to the Licensee, to deal in the Software
 without limitation of the rights to use, copy, modify, merge, publish, and/or
 distribute copies of the Software, provided the following conditions are met
 and upheld:
 
-The ability of others to obtain a copy of the Software is not intentionally
-restricted in any way, whether it may be through mandatory compensation,
-sublicensing the Software to be more restrictive, increasing the difficulty
-of obtaining copies of the Software purposefully, and/or by any other means.
+    (1) The ability of others to obtain a copy of the Software is not intentionally
+        restricted in any way, whether it may be through mandatory compensation,
+        sublicensing the Software to be more restrictive, increasing the difficulty
+        of obtaining copies of the Software purposefully, and/or by any other means,
+        to the extent of the law.
 
-All copies, derivatives and/or portions of the Software must be licensed under
-the ACOA1 license, and the full ACOA1 license must accompany it, unless another
-license is available in the original Software, in which case the Licensee may
-choose which license the derivative, copy, and/or portion is licensed under.
+    (2) All copies, derivatives and/or portions of the Software must be licensed under
+        the ACOA1 license, and the full ACOA1 license must accompany it, unless another
+        license is available in the original Software, in which case the Licensee may
+        choose which license the derivative, copy, and/or portion is licensed under.
+
+    (3) The Licensee acknowledges the ability of the law to alter the extent of
+        this license, when in conflict with it.
+
+If any of the Contributors hold trademarks, Derivatives and Partial Derivates
+may only use them in the Software with express permission from those Contributor
+or Contributors who hold the trademark; however, the Licensee is expressly
+forbidden to create new trademarks of any Software which is licensed under the
+ACOA1 license, to the extent of the law.
+
+If any of the Contributors hold patents, Derivatives and Partial Derivates may
+only use them in the Software with express permission from those Contributor or
+Contributors who hold the patents; however, the Licensee is expressly forbidden
+to create new patents of any Software which is licensed under the ACOA1 license,
+to the extent of the law.
 
 Permission is granted to the Licensee to license the Software under any other
 license, even those which have permissions the ACOA1 license lacks, in addition
@@ -31,7 +57,10 @@ Permission is granted to the Licensee to choose to entirely replace the
 original ACOA1 license with any of its succesors. In this case, the terms of
 the ACOA1 license are voided and replaced with the terms of the chosen succesor.
 A succesor to the ACOA1 license must be authored by the author of the ACOA1
-license, and explicitly state that it is ACOA1's successor.
+license, and explicitly state that it is ACOA1's successor. Only new Derivatives,
+new Partial Derivatives, and newly obtained copies are subject to the new license;
+pre-existing Derivatives, Partial Derivatives, and pre-obtained copies remain
+subject to the old license.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
