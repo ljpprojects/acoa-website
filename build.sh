@@ -2,8 +2,8 @@
 
 set -euo pipefail
 
-rm site/index.html
-rm -r site/dist
+rm -f  site/index.html
+rm -rf site/dist
 
 mkdir -p site/dist
 
