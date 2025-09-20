@@ -1,6 +1,10 @@
 #! /bin/bash
 
 set -euo pipefail
+
+rm site/index.html
+rm -r site/dist
+
 mkdir -p site/dist
 
 function buildcsshtml {
