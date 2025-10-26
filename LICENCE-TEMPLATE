@@ -1,143 +1,40 @@
-<html lang="en-au">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="/dist/index-min.css" />
-
-        <!-- Fallback for sh*tty browsers -->
-        <link
-            rel="shortcut icon"
-            href="https://ljpprojects.org/icon.png"
-            sizes="any"
-            type="image/png"
-        />
-        <link
-            rel="icon"
-            href="https://ljpprojects.org/icon.png"
-            sizes="any"
-            type="image/png"
-        />
-        <link
-            rel="mask-icon"
-            href="https://ljpprojects.org/icon.png"
-            sizes="any"
-            type="image/png"
-        />
-        <link
-            rel="apple-touch-icon"
-            href="https://ljpprojects.org/icon.png"
-            sizes="any"
-            type="image/png"
-        />
-
-        <link
-            rel="shortcut icon"
-            href="https://ljpprojects.org/icon.svg"
-            sizes="any"
-            type="image/svg+xml"
-        />
-        <link
-            rel="icon"
-            href="https://ljpprojects.org/icon.svg"
-            sizes="any"
-            type="image/svg+xml"
-        />
-        <link
-            rel="mask-icon"
-            href="https://ljpprojects.org/icon.svg"
-            sizes="any"
-            type="image/svg+xml"
-        />
-        <link
-            rel="apple-touch-icon"
-            href="https://ljpprojects.org/icon.svg"
-            sizes="any"
-            type="image/svg+xml"
-        />
-        <title>ACOA licence</title>
-    </head>
-
-    <body>
-        <section id="header">
-            <sub>ljpprojects</sub>
-            <h1>ACOA licence</h1>
-        </section>
-        <main>
-            <p>
-                The Aggrandised, Convalescent, Open Access licence, or ACOA licence, is a
-                licence dedicated to upholding free access, through forbidding
-                the restriction of access by:
-            </p>
-            <ol>
-                <li>Putting the software behind a paywall or by requiring compensation,</li>
-                <li>Sublicensing the Software to a more restrictive licence,</li>
-                <li>Purposefully increasing the difficulty of obtaining copies of the software, or by</li>
-                <li>Any other means.</li>
-            </ol>
-
-            <b>
-                If you use only the ACOA licence, your software and its derivatives should
-                remain free of charge to everyone.
-            </b>
-
-            <p>
-                Others are free to use, copy, modify, merge, publish, and/or
-                distribute copies of your software if they follow the conditions
-                outlined in the licence.
-            </p>
-
-            <p>
-                You can include mutliple licences so that anyone who is creating
-                a derivative can choose which licence to use in their project.
-                This allows more flexibility than a copyleft licence like GPL.
-            </p>
-
-            <p>
-                You can re-licence software licenced under ACOA licences to any
-                of their succesors freely. This means that if you were to use
-                the ACOA3 licence today, you can just switch to the ACOA4
-                licence when it is released, and for anyone who adopted the ACOA1/2
-                licence, you can now switch to the ACOA3 licence.
-            </p>
-
-            <p>
-                It contains the same warranty and liability disclaimer as the
-                MIT licence, so you will get the same protections as if you had
-                used the MIT licence.
-            </p>
-
-            <pre>
-                <code>
 ACOA3 Licence
 
 Copyright (c) [YEAR/YEARS] [NAME]
 
 The "Software" refers to the source code, accompanying documentation, and/or
     any other accompanying files.
+
 The "Licence" refers to the full ACOA3 licence.
+
 The "Licensee" refers to anyone obtaining a copy, derivative, and/or portion
     of the Software licensed under the Licence.
+
 "Derivatives" are derivative works.
+
 The "Contributors" are anyone who is acknowledged in the Software itself as
     having made any contribution. If this is a Derivative, the contributors of
     the Software it is derived from are also contributors to this Derivative.
+
 The "Core Tenets" of the Licence are:
+
     (1) Preventing the intentional restriction of access.
+
     (2) Allowing successors.
+
     (3) Allowing multiple included, not effective, licences.
+
     (4) Allowing Derivatives to opt-out of an ACOA licence in at least one case.
+
     (5) The inability to remove core tenets, and the ability to add more.
+
 Acknowledging that ACOA3 is the successor to ACOA2, and in turn, its predecessors,
+
 Permission is hereby granted to the Licensee - without charge - to deal in the
 Software without limitation of the rights to use, copy, modify, merge, publish,
 and/or distribute copies of the Software, provided the following conditions are
 met and upheld:
+
     (1) The ability of others to obtain copies of the Software and to create
         Derivatives from the Software is not intentionally restricted further
         than the restrictions in place at time when the Software was placed under
@@ -146,46 +43,56 @@ met and upheld:
         further restrictions on who is eligible to obtain copies of the Software
         or make Derivatives from the Software, or by any other means, unless with
         the exception of any of the cases described below:
+
             (a) The Software exposes information which compromises the security
                 of any person, poses a risk of substantial financial loss, poses
                 a risk of serious net harm, or some other unintended adverse
                 consequence. In this case, the Licensee may restrict access to
                 the Software to any extent.
+
             (b) The Software has been replaced or deprecated.
                 In this case, the Licensee may restrict access to the Software,
                 provided that some new version or replacement - which is licensed
                 under the ACOA2 licence or any of its successors - takes its place,
                 and that this Software remains licensed under the Licence
                 or any of its successors.
+
             (c) The Software was accidentally released before it was intended to
                 be released. In this case, the Licensee may restrict access to
                 the Software, but no further than the restrictions in place on
                 the unreleased version.
+
     (2) All copies and Derivatives of the Software, unless some other licence is
         designated as an alternative to the Licence in the Software’s source code
         or accompanying documentation - in which case the Licensee of the copy
         or Derivative may choose which licence's terms should apply - that copy
         or Derivative must be licensed under the Licence, and the full Licence
         and any other included licences must accompany it.
+
     (3) The Software remains licensed under the Licence exclusively, unless
         some other clause of this licence permits otherwise.
+
 Permission is granted to the Licensee to designate any other licence as an option
 someone obtaining a copy of the Software or creating a Derivative from the Software
 could use to license their copy or Derivative with, by including it in an
 'EXTRA-LICENCE-...' file as a part of the source code, in addition to the full
 Licence. The Software may not, however, be licensed under any other licence
 unless with the permission of some clause in this licence.
+
 Permission is granted to the Licensee to relicense the Software under any successor
 or predecessor of the Licence. In this case, all terms of the Licence are rendered
 null and void, and are replaced by the terms of the new licence. Any copies or
 Derivatives of the Software obtained before the relicensing are not required to
 switch to the new licence. You may only relicense if the new licence meets the
 following criteria:
+
     (1) The Core Tenets are upheld in the chosen licence.
+
     (2) The chosen licence explicitly states or acknowledges that it is the successor
         to ACOA3. If the new licence is a predecessor to a newer ACOA licence, it
         must have a newer ACOA licence acknowledge that that newer ACOA licence
         is the successor to the older licence.
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -193,13 +100,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
            _____  ____            ____
     /\    / ____|/ __ \    /\    |___ \
    /  \  | |    | |  | |  /  \     __) |
-  / /\ \ | |    | |  | | / /\ \   |__ &lt;
+  / /\ \ | |    | |  | | / /\ \   |__ <
  / ____ \| |____| |__| |/ ____ \  ___) |
-/_/    \_\\_____|\____//_/    \_\|____/</code>
-            </pre>
-        </main>
-    </body>
-</html>
+/_/    \_\\_____|\____//_/    \_\|____/
